@@ -1,42 +1,14 @@
+func insert_consuming_return(newobj){
+    onsuming_return_newobj = event.NewObject()
+    onsuming_return_newobj.CommodityCodeId = newobj.CommodityCodeId
+    onsuming_return_newobj.Status = "领用"
+    onsuming_return_newobj.StoreHouseId = newobj.StoreHouseId
+    onsuming_return_newobj.DepartmentId = newobj.DepartmentId
+    tri.Insert("ConsumingReturn", onsuming_return_newobj)
+}
 
-1231
-123
-123
-1
-41
-23
-123
-12
-312
-3
-12
-312
-312
-3
-123
-1
-123123123123
-12312
-3123
-123
-12
-12
-3
-13
-1
-312
-3
-12
-12
-qweqweqwe
-
-qew
-qe
-qwe
-qwe
-qw
-
-qwe
-qw
-eqw
-e
+func update_consuming_return(record_id){
+    cr_newobj = event.NewObject()
+    cr_newobj.ReturnStatus = "回退"
+    tri.Update("ConsumingReturn",record_id, cr_newobj)
+}
