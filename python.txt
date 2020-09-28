@@ -1,3 +1,5 @@
+
+
 func insert_consuming_return(newobj){
     onsuming_return_newobj = event.NewObject()
     onsuming_return_newobj.CommodityCodeId = newobj.CommodityCodeId
@@ -19,4 +21,4 @@ func update_consuming_return(record_id){
      "displayName": "生成医院结算单",
       "target": "HospitalStatementsCreate",
      "width": "60%"
-}	
+}
