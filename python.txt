@@ -14,16 +14,8 @@ func update_consuming_return(record_id){
     cr_newobj.ReturnStatus = "回退"
     tri.Update("ConsumingReturn",record_id, cr_newobj)
 }
-<<<<<<< HEAD
 
 
-{
-    "type": "create",
-     "displayName": "生成医院结算单",
-      "target": "HospitalStatementsCreate",
-     "width": "60%"
-}
-=======
      {
             "component": "PageHeader",
             "props": {
@@ -43,4 +35,3 @@ func update_consuming_return(record_id){
             },
             "children": []
         }
->>>>>>> change_site
