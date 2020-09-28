@@ -30,10 +30,4 @@ func update_consuming_return(record_id){
                 "lookupStore": "HospitalStatementTableStore"
             },
             "children": []
-        },
-{
-    "type": "create",
-     "displayName": "生成医院结算单",
-      "target": "HospitalStatementsCreate",
-     "width": "60%"
-}	
+        }
