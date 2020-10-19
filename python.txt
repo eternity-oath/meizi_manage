@@ -38,3 +38,8 @@ func update_consuming_return(record_id){
 
 litong- test
 litong test2
+
+
+lidi-test
+lidi-test 2
+
